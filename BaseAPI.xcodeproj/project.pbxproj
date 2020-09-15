@@ -15,6 +15,8 @@
 		B2ADE97325109B5700845337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2ADE97125109B5700845337 /* LaunchScreen.storyboard */; };
 		B2ADE97E25109B5700845337 /* BaseAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2ADE97D25109B5700845337 /* BaseAPITests.swift */; };
 		B2ADE98925109B5700845337 /* BaseAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2ADE98825109B5700845337 /* BaseAPIUITests.swift */; };
+		B2ADE99725109BAE00845337 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2ADE99625109BAE00845337 /* Environment.swift */; };
+		B2ADE9992510BD5200845337 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2ADE9982510BD5200845337 /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B2ADE98425109B5700845337 /* BaseAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2ADE98825109B5700845337 /* BaseAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPIUITests.swift; sourceTree = "<group>"; };
 		B2ADE98A25109B5700845337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2ADE99625109BAE00845337 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		B2ADE9982510BD5200845337 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				B2ADE96F25109B5700845337 /* Assets.xcassets */,
 				B2ADE97125109B5700845337 /* LaunchScreen.storyboard */,
 				B2ADE97425109B5700845337 /* Info.plist */,
+				B2ADE99625109BAE00845337 /* Environment.swift */,
+				B2ADE9982510BD5200845337 /* APIClient.swift */,
 			);
 			path = BaseAPI;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2ADE96B25109B5500845337 /* ViewController.swift in Sources */,
+				B2ADE99725109BAE00845337 /* Environment.swift in Sources */,
 				B2ADE96725109B5500845337 /* AppDelegate.swift in Sources */,
+				B2ADE9992510BD5200845337 /* APIClient.swift in Sources */,
 				B2ADE96925109B5500845337 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
